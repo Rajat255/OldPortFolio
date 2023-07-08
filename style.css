@@ -1,6 +1,43 @@
-  .section1,
-  .section2,
-  .section3,
-  .section4 {
-    height: 100vh;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;  
+  color: white;
+  background-image: url("assets/blob-scene-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  width: 95%;
+  height: 105vh;
+  float: right;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+  transition: all 1s;
+}
+
+.navbar {
+  position: fixed;
+  top: 50%;
+  left: 3%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

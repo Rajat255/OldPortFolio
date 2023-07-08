@@ -6,33 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rajat's PortFolio</title>
   <link rel="stylesheet" href="style.css">
-  <script src="app.js"></script>
+  <script defer src="app.js"></script>
 </head>
 
 <body>
   <div class="navbar">
-    <input type="radio" name="viewport" value="viewport1" onchange="scrollToViewport('viewport1')" checked> 
-    <input type="radio" name="viewport" value="viewport2" onchange="scrollToViewport('viewport2')"> 
-    <input type="radio" name="viewport" value="viewport3" onchange="scrollToViewport('viewport3')"> 
-    <input type="radio" name="viewport" value="viewport4" onchange="scrollToViewport('viewport4')"> 
+    <input type="radio" name="viewport" value="viewport1" onchange="scrollToViewport('viewport1')" checked><br> 
+    <input type="radio" name="viewport" value="viewport2" onchange="scrollToViewport('viewport2')"> <br>
+    <input type="radio" name="viewport" value="viewport3" onchange="scrollToViewport('viewport3')"> <br>
+    <input type="radio" name="viewport" value="viewport4" onchange="scrollToViewport('viewport4')"> <br>
 
   </div>
-  <section class="section1">
+  <section class="section1 hidden" id="viewport1">
     <div class="box1">
       Hi1
     </div>
   </section>
-  <section class="section2">
+  <section class="section2 hidden" id="viewport2">
     <div class="box2">
       Hi2
     </div>
   </section>
-  <section class="section3">
+  <section class="section3 hidden" id="viewport3">
     <div class="box3">
       Hi3
     </div>
   </section>
-  <section class="section4">
+  <section class="section4 hidden" id="viewport4">
     <div class="box4">
       Hi4
     </div>
