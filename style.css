@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
-body{
-  font-family: 'Poppins', sans-serif;  
+body {
+  font-family: 'Poppins', sans-serif;
   color: white;
-  background-image: url("assets/blob-scene-haikei.svg");
+  background-image: url("assets/layered-waves-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -40,4 +40,51 @@ body{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.box1 {
+  height: 70vh;
+  margin: 1% 7%;
+  font-size: xx-large;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.299);
+  padding: 7.25rem 1rem;
+  border-radius: 20px;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, .7); */
+}
+
+.box2 {
+  height: 65vh;
+  margin: 1% 7%;
+  font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.299);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 65vh;
+  margin: 1% 7%;
+  font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.299);
+  padding: 2rem;
+  border-radius: 20px;
+}
+span{
+  text-align: center;
+}
+.p1
+.p2
+.p3
+.p4 {
+  height: auto;
 }
