@@ -59,8 +59,8 @@ input[type="radio"] {
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, .7); */
 }
 
-.box2 {
-  height: 65vh;
+.box2_1 {
+  height: auto;
   margin: 1% 7%;
   font-size: x-large;
   background-color: rgba(0, 0, 0, 0.299);
@@ -68,23 +68,20 @@ input[type="radio"] {
   border-radius: 20px;
 }
 
-.box3 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  height: 65vh;
-  margin: 1% 7%;
-  font-size: x-large;
-  background-color: rgba(0, 0, 0, 0.299);
-  padding: 2rem;
-  border-radius: 20px;
-}
 span{
   text-align: center;
 }
-.p1
-.p2
-.p3
-.p4 {
-  height: auto;
+
+.box3{
+  display: flex;
+  font-size: x-large;
+}
+
+.box3_1{
+  width: 40%;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.299);
+  padding: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 20px;
 }
