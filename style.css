@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
-@media only screen and (max-width: 768px) {
-  /* Hide the main content on mobile devices */
-  body {
-      display: none;
-  }
-
+@media only screen and (max-width: 769px) {
   /* Show a message specifically for mobile users */
   .mobile-message {
       display: block;
