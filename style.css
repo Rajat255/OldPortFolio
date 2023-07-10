@@ -49,20 +49,16 @@ input[type="radio"] {
 }
 
 .box1 {
-  height: 67vh;
+  height: 60vh;
   margin: 1% 7%;
   font-size: xx-large;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.299);
-  padding: 7.25rem 1rem;
-  border-radius: 20px;
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, .7); */
 }
 
 .box2_1 {
   height: auto;
   margin: 1% 7%;
-  font-size: x-large;
+  font-size: larger;
   background-color: rgba(0, 0, 0, 0.299);
   padding: 1rem;
   border-radius: 20px;
@@ -74,12 +70,12 @@ span{
 
 .box3{
   display: flex;
-  font-size: x-large;
+  font-size: large;
 }
 
 .box3_1{
   width: 40%;
-  height: 67vh;
+  height: 80vh;
   background-color: rgba(0, 0, 0, 0.299);
   padding: 1rem;
   margin-right: 0.5rem;
