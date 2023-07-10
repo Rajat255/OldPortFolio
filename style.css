@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
+@media only screen and (max-width: 768px) {
+  /* Hide the main content on mobile devices */
+  body {
+      display: none;
+  }
+
+  /* Show a message specifically for mobile users */
+  .mobile-message {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      background-image: url(assets/layered-waves-haikei.svg);
+      background-color: rgba(0, 0, 0, 0.299);
+      font-size: larger;
+  }
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: white;
