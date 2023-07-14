@@ -1,25 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
-@media only screen and (max-width: 769px) {
-  /* Show a message specifically for mobile users */
-  .mobile-message {
-      display: block;
-      text-align: center;
-      padding: 20px;
-      background-image: url(assets/layered-waves-haikei.svg);
-      background-color: rgba(0, 0, 0, 0.299);
-      font-size: larger;
-  }
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   color: white;
-  background-image: url("assets/layered-waves-haikei.svg");
+  background-image: url("../assets/layered-waves-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
+
 
 .section1,
 .section2,
@@ -50,7 +40,9 @@ body {
   left: 3%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: column;
+  flex:1;
+  flex-direction:column;
+  gap: 2rem;
   align-items: flex-end;
 }
 
@@ -60,36 +52,39 @@ input[type="radio"] {
   transform: scale(2);
 }
 
-.box1 {
-  height: 60vh;
-  margin: 1% 7%;
-  font-size: xx-large;
-  text-align: center;
+.box1
+.box2
+.box3
+.box4 {
+  min-height: 100%;
 }
+
+.box1_1{
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 .box2_1 {
   height: auto;
-  margin: 1% 7%;
-  font-size: larger;
+  width: auto;
+  margin: 1% 10%;
+  font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.299);
   padding: 1rem;
   border-radius: 20px;
 }
-
-span{
-  text-align: center;
-}
-
-.box3{
+.box3container{
   display: flex;
-  font-size: large;
+  gap: 0.5rem;
+  font-size: 1rem;
 }
 
 .box3_1{
-  width: 40%;
-  height: 80vh;
+  width: 21.5%;
+  height: 75vh;
   background-color: rgba(0, 0, 0, 0.299);
   padding: 1rem;
-  margin-right: 0.5rem;
   border-radius: 20px;
 }
