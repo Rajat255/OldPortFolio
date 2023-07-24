@@ -3,7 +3,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: white;
-  background-image: url("/assets/layered-waves-haikei.svg");
+  background-image: url("assets/layered-waves-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
