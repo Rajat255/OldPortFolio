@@ -53,7 +53,7 @@ input[type="radio"] {
 }
 
 .box1 .box2 .box3 .box4 {
-  min-height: 100%;
+  max-height: 100%;
 }
 
 .box1_1 {
