@@ -94,7 +94,7 @@ input[type="radio"] {
   padding: 1rem 0 0 0;
   gap: 2rem;
   justify-content: center;
-  font-size: smaller;
+  font-size: medium;
 }
 
 .logo img {
