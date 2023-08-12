@@ -111,6 +111,13 @@ input[type="radio"] {
   padding: 1rem;
 }
 
+a:link{
+  color: white;
+}
+a:visited{
+  color: pink;
+}
+
 .logo:hover {
   transform: scale(1.3);
 }
